@@ -1,0 +1,15 @@
+/**
+ * Pré-processamento CSS  para o projeto. 
+*/
+
+:root{
+    --background-color: #fafafa;
+    --body-font-color: rgba(0,0,0, 0.5);   
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--body-font-color);
+}
+
+

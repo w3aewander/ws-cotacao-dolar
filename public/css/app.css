@@ -1,0 +1,11 @@
+
+#convert-to, #convert-from {
+
+    display: inline-flex;
+    width: 120px;
+    height: 40px;
+    padding: 5px 15px;
+    color: rgba(0,0,0,0.9);
+    font-weight: bolder;
+    background-color: #fafafa;
+}
