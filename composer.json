@@ -12,7 +12,9 @@
         }
     ],
     "require": {
-        "guzzle/http": "^3.9",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzle/guzzle": "^2.6"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.8"
     }
 }

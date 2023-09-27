@@ -47,8 +47,8 @@ class ComposerStaticInit37a8a39d8bc171defe8604c0136644a9
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -79,21 +79,13 @@ class ComposerStaticInit37a8a39d8bc171defe8604c0136644a9
     public static $prefixesPsr0 = array (
         'G' => 
         array (
-            'Guzzle\\Stream' => 
+            'Guzzle\\Tests' => 
             array (
-                0 => __DIR__ . '/..' . '/guzzle/stream',
+                0 => __DIR__ . '/..' . '/guzzle/guzzle/tests',
             ),
-            'Guzzle\\Parser' => 
+            'Guzzle' => 
             array (
-                0 => __DIR__ . '/..' . '/guzzle/parser',
-            ),
-            'Guzzle\\Http' => 
-            array (
-                0 => __DIR__ . '/..' . '/guzzle/http',
-            ),
-            'Guzzle\\Common' => 
-            array (
-                0 => __DIR__ . '/..' . '/guzzle/common',
+                0 => __DIR__ . '/..' . '/guzzle/guzzle/src',
             ),
         ),
     );

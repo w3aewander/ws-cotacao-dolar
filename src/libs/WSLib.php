@@ -32,7 +32,8 @@ public function __construct(){
 private function getURLBodyContent()
 { 
 
-        $client = new \GuzzleHttp\Client();
+        //$client = new \GuzzleHttp\Client();
+        $client = new \GuzzleHttp\Client(['verify' => false ]);
 
         $resp = $client->request('GET', $this->url);
 

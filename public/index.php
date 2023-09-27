@@ -13,12 +13,13 @@
 
  $jsonConfig = json_decode(file_get_contents( __DIR__ . '/../src/config/wslib.json') );
 
- $url = filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_DEFAULT);
+ //$url = filter_input(INPUT_SERVER, 'REQUEST_URI');
 
+ $url = $_SERVER['REQUEST_URI'];
 
  $request = new App\libs\WSLib;
 
- $moeda = html_entity_decode(explode('/',$url)[1]);
+ $moeda = explode('/',$url)[1];
 
  switch( $moeda){
     case "dolar":
@@ -27,7 +28,7 @@
     case "euro":
         echo $request->getEuroValue();        
     break;
-    case "btc":
+    case "bitcoin":
         echo $request->getBTCValue();        
     break;
     default:

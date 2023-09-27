@@ -38,22 +38,25 @@
 
     <div class="container">
         <div class="card">
+          
             <div class="card-img">
                 <img src="https://blogs.ifas.ufl.edu/wakullaco/files/2019/04/banner-coins.jpg" class="img-thumbnail">
             </div>
+            
             <div class="card-header">
                 <div class="card-title">
                     <h2>Conversor de moedas</h2>
                 </div>
             </div>
+
             <div class="card-body">
 
                 <div class="row">
                     <div class="col">
                         <div class="p-2 mb-2 bg-primary text-white">De</div>
-
+                        
                         <div>
-                            <input type="radio" name="opt_from" value="from_reais"> Real
+                            <input type="radio" name="opt_from" value="from_real"> Real
                         </div>
                         <div>
                             <input type="radio" name="opt_from" value="from_dolar"> Dolar
@@ -66,11 +69,13 @@
                         </div>
 
                     </div>
+
+
                     <div class="col">
                         <div class="p-2 mb-2 bg-primary text-white">Para</div>
 
                         <div>
-                            <input type="radio" name="opt_to" value="to_reais"> Real
+                            <input type="radio" name="opt_to" value="to_real"> Real
                         </div>
                         <div>
                             <input type="radio" name="opt_to" value="to_dolar"> Dolar
@@ -86,15 +91,18 @@
                 </div>
 
                 <div class="row my-2">
-                    <div class="p-2">
-                        <strong>Converter de:</strong>
-                </div>
-                <div class="p-2" id='convert-from'>
-                    <strong>Para:</strong>
+                    <div class="col-3 boder-1">
+                        <div class="p-2"><strong>Converter de:</strong></div>
+                        <div class="p-2" id='convert-from'></div>                      
+                    </div>
+
+                    <div class="col-3 boder-1">
+                        <div class="p-2"><strong>Para:</strong></div>
+                        <div class="p-2" id='convert-to'></div>                      
+                    </div>
+                        
                 </div>
 
-                <div id='convert-to'></div>
-                
                 <div class="row my-3">
                     <div class="form-group col">
                         <label for="from_value">Valor para converter:</label>
@@ -111,7 +119,7 @@
 
                     <div class="btn-group">
 
-                        <div class="btn btn-danger">Converter</div>
+                        <button class="btn btn-danger" id="btn-converter">Converter</button>
 
                     </div>
 
@@ -119,23 +127,19 @@
 
                 </div>
 
-                </div>
-
-                </div>
+            </div>
                
-                <div class="p-5 text-center">
-                    PHP Fácil - Acesse o canal no Youtube <a
-                        href='https://youtube.com/w3ae'>@wanderleisilvadocarmo</a><br>
-                    Aplicação didática para o curso de lógica de programação<br>
-                    <?= date('Y') ?> - Wanderlei Silva do Carmo <wander.silva@gmail.com>
-                </div>
-
+            <div class="p-5 text-center">
+                PHP Fácil - Acesse o canal no Youtube <a
+                    href='https://youtube.com/w3ae'>@wanderleisilvadocarmo</a><br>
+                Aplicação didática para o curso de lógica de programação<br>
+                <?= date('Y') ?> - Wanderlei Silva do Carmo <wander.silva@gmail.com>
             </div>
 
-            </div>
         </div>
 
     </div>
+</div>
 
 </body>
 

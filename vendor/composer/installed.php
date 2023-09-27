@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'administrador/ai',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '7babea8bd053bd8806427fdf78fb29ced95cc6da',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,47 +11,20 @@
     ),
     'versions' => array(
         'administrador/ai' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '7babea8bd053bd8806427fdf78fb29ced95cc6da',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'guzzle/common' => array(
-            'pretty_version' => 'v3.9.2',
-            'version' => '3.9.2.0',
-            'reference' => '2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc',
+        'guzzle/guzzle' => array(
+            'pretty_version' => 'v2.6.5',
+            'version' => '2.6.5.0',
+            'reference' => '10759045ad0710e46dd83e88f89c83021ab8a950',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzle/common/Guzzle/Common',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'guzzle/http' => array(
-            'pretty_version' => 'v3.9.2',
-            'version' => '3.9.2.0',
-            'reference' => '1e8dd1e2ba9dc42332396f39fbfab950b2301dc5',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzle/http/Guzzle/Http',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'guzzle/parser' => array(
-            'pretty_version' => 'v3.9.2',
-            'version' => '3.9.2.0',
-            'reference' => '6874d171318a8e93eb6d224cf85e4678490b625c',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzle/parser/Guzzle/Parser',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'guzzle/stream' => array(
-            'pretty_version' => 'v3.9.2',
-            'version' => '3.9.2.0',
-            'reference' => '60c7fed02e98d2c518dae8f97874c8f4622100f0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzle/stream/Guzzle/Stream',
+            'install_path' => __DIR__ . '/../guzzle/guzzle',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -62,7 +35,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'guzzlehttp/promises' => array(
             'pretty_version' => '2.0.1',
@@ -71,7 +44,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/promises',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'guzzlehttp/psr7' => array(
             'pretty_version' => '2.6.1',
@@ -80,7 +53,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'psr/event-dispatcher' => array(
             'pretty_version' => '1.0.0',
@@ -104,10 +77,10 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/http-client',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'psr/http-client-implementation' => array(
-            'dev_requirement' => false,
+            'dev_requirement' => true,
             'provided' => array(
                 0 => '1.0',
             ),
@@ -119,10 +92,10 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/http-factory',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'psr/http-factory-implementation' => array(
-            'dev_requirement' => false,
+            'dev_requirement' => true,
             'provided' => array(
                 0 => '1.0',
             ),
@@ -134,10 +107,10 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/http-message',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'psr/http-message-implementation' => array(
-            'dev_requirement' => false,
+            'dev_requirement' => true,
             'provided' => array(
                 0 => '1.0',
             ),
@@ -149,7 +122,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'symfony/deprecation-contracts' => array(
             'pretty_version' => 'v3.3.0',
@@ -158,7 +131,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'symfony/event-dispatcher' => array(
             'pretty_version' => 'v6.3.2',
